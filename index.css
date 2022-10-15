@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.dot_0
+{
+    fill: rgba(255, 166, 0, 0.10);
+    stroke-width: 1;
+}
+
+.dot_1
+{
+    fill: rgba(255, 166, 0, 1);
+    stroke-width: 0;
+}
+
+
+#dot01 {transform: translate(-30px,-60px);}
+#dot02 {transform: translate(+00px,-60px);}
+#dot03 {transform: translate(+30px,-60px);}
+
+#dot04 {transform: translate(-30px,-30px);}
+#dot05 {transform: translate(+30px,-30px);}
+
+#dot06 {transform: translate(-30px, 00px);}
+#dot07 {transform: translate(+00px, 00px);}
+#dot08 {transform: translate(+30px, 00px);}
+
+#dot09 {transform: translate(-30px,+30px);}
+#dot10 {transform: translate(+30px,+30px);}
+
+#dot11 {transform: translate(-30px,+60px);}
+#dot12 {transform: translate(+00px,+60px);}
+#dot13 {transform: translate(+30px,+60px);}
+
